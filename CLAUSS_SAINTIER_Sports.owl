@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/sindarus/ontologies/2016/10/untitled-ontology-7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/sindarus/ontologies/2016/10/untitled-ontology-7">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://xmlns.com/foaf/0.1/</Import>
+    <Declaration>
+        <ObjectProperty IRI="#personne_a_nationalite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Defenseur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sport"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#personne_a_place"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#International"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Role"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JoueurSimple"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ailier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Clément"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Allemand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nationalite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Francais"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Goal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Poste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Place"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Foot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Basket"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Germain_Basket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sportif"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Attaquant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Capitaine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Germain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JoueurUnique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PingPong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Clement_PingPong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Germain_PingPong"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Sportif"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#personne_a_place"/>
+                <Class IRI="#Place"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <ClassAssertion>
+        <Class IRI="#Poste"/>
+        <NamedIndividual IRI="#Ailier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nationalite"/>
+        <NamedIndividual IRI="#Allemand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Poste"/>
+        <NamedIndividual IRI="#Attaquant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sport"/>
+        <NamedIndividual IRI="#Basket"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Role"/>
+        <NamedIndividual IRI="#Capitaine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Place"/>
+        <NamedIndividual IRI="#Clement_PingPong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+        <NamedIndividual IRI="#Clément"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Poste"/>
+        <NamedIndividual IRI="#Defenseur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sport"/>
+        <NamedIndividual IRI="#Foot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nationalite"/>
+        <NamedIndividual IRI="#Francais"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+        <NamedIndividual IRI="#Germain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Place"/>
+        <NamedIndividual IRI="#Germain_Basket"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Place"/>
+        <NamedIndividual IRI="#Germain_PingPong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Poste"/>
+        <NamedIndividual IRI="#Goal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nationalite"/>
+        <NamedIndividual IRI="#International"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Role"/>
+        <NamedIndividual IRI="#JoueurSimple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Poste"/>
+        <NamedIndividual IRI="#JoueurUnique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sport"/>
+        <NamedIndividual IRI="#PingPong"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personne_a_nationalite"/>
+        <NamedIndividual IRI="#Clément"/>
+        <NamedIndividual IRI="#Francais"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personne_a_place"/>
+        <NamedIndividual IRI="#Clément"/>
+        <NamedIndividual IRI="#Clement_PingPong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personne_a_nationalite"/>
+        <NamedIndividual IRI="#Germain"/>
+        <NamedIndividual IRI="#Allemand"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personne_a_place"/>
+        <NamedIndividual IRI="#Germain"/>
+        <NamedIndividual IRI="#Germain_Basket"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personne_a_place"/>
+        <NamedIndividual IRI="#Germain"/>
+        <NamedIndividual IRI="#Germain_PingPong"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/gender"/>
+        <NamedIndividual IRI="#Clément"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/gender"/>
+        <NamedIndividual IRI="#Germain"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Male</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#personne_a_nationalite"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#personne_a_place"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#personne_a_nationalite"/>
+        <Class IRI="#Nationalite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#personne_a_place"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
