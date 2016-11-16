@@ -16,6 +16,9 @@
         <ObjectProperty IRI="#personne_a_nationalite"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#place_est_sport"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Defenseur"/>
     </Declaration>
     <Declaration>
@@ -67,6 +70,9 @@
         <NamedIndividual IRI="#Germain_Basket"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#place_est_role"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Sportif"/>
     </Declaration>
     <Declaration>
@@ -89,6 +95,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Germain_PingPong"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#place_est_poste"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="#Sportif"/>
@@ -207,6 +216,18 @@
         <NamedIndividual IRI="#Germain"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Male</Literal>
     </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#place_est_poste"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#place_est_role"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#place_est_sport"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#personne_a_nationalite"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
@@ -214,6 +235,18 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#personne_a_place"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#place_est_poste"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#place_est_role"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#place_est_sport"/>
+        <Class IRI="#Place"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#personne_a_nationalite"/>
@@ -222,6 +255,18 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#personne_a_place"/>
         <Class IRI="#Place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#place_est_poste"/>
+        <Class IRI="#Poste"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#place_est_role"/>
+        <Class IRI="#Role"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#place_est_sport"/>
+        <Class IRI="#Sport"/>
     </ObjectPropertyRange>
 </Ontology>
 
