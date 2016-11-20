@@ -220,6 +220,27 @@
                     <NamedIndividual IRI="#Capitaine"/>
                 </ObjectHasValue>
             </ObjectSomeValuesFrom>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#personneANationalite"/>
+                <NamedIndividual IRI="#francais"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SeulementCapitaines"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+            <ObjectComplementOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#personneAPlace"/>
+                    <ObjectComplementOf>
+                        <ObjectHasValue>
+                            <ObjectProperty IRI="#placeEstRole"/>
+                            <NamedIndividual IRI="#Capitaine"/>
+                        </ObjectHasValue>
+                    </ObjectComplementOf>
+                </ObjectSomeValuesFrom>
+            </ObjectComplementOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
