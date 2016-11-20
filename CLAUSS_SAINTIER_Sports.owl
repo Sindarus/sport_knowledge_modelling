@@ -122,10 +122,10 @@
         <Class IRI="#Competition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
+        <NamedIndividual IRI="#foot_jo_16"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#foot_jo_16"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Equipe"/>
@@ -164,10 +164,10 @@
         <NamedIndividual IRI="#Défenseur"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsBasket"/>
+        <NamedIndividual IRI="#Simple_joueur"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Simple_joueur"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsBasket"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#AiliersBasket"/>
@@ -405,6 +405,11 @@
         <NamedIndividual IRI="#clementBasket"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personneAPlace"/>
+        <NamedIndividual IRI="#Germain_CLAUSS"/>
+        <NamedIndividual IRI="#germainTennis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#placeASport"/>
         <NamedIndividual IRI="#clementBasket"/>
         <NamedIndividual IRI="#Basket"/>
@@ -419,6 +424,11 @@
         <NamedIndividual IRI="#clementBasket"/>
         <NamedIndividual IRI="#Capitaine"/>
     </ObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#personneANationalite"/>
+        <NamedIndividual IRI="#Germain_CLAUSS"/>
+        <NamedIndividual IRI="#francais"/>
+    </NegativeObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://xmlns.com/foaf/0.1/gender"/>
         <NamedIndividual IRI="#Clement_SAINTIER"/>
@@ -439,6 +449,9 @@
     </SubObjectPropertyOf>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#clubASport"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#personneANationalite"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#placeASport"/>
