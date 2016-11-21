@@ -673,7 +673,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#placeEstRole"/>
         <NamedIndividual IRI="#clementRugby"/>
-        <NamedIndividual IRI="#Simple_joueur"/>
+        <NamedIndividual IRI="#Capitaine"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#placeParticipeAEvenement"/>
