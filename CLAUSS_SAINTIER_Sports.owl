@@ -233,6 +233,16 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsInternationaux"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#EvenementANationalite"/>
+                <NamedIndividual IRI="#international"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SeulementCapitaines"/>
         <ObjectIntersectionOf>
             <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
@@ -469,6 +479,11 @@
         <NamedIndividual IRI="#clementBasket"/>
         <NamedIndividual IRI="#Capitaine"/>
     </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EvenementANationalite"/>
+        <NamedIndividual IRI="#jo_16"/>
+        <NamedIndividual IRI="#international"/>
+    </ObjectPropertyAssertion>
     <NegativeObjectPropertyAssertion>
         <ObjectProperty IRI="#personneANationalite"/>
         <NamedIndividual IRI="#Germain_CLAUSS"/>
@@ -512,7 +527,7 @@
     </InverseFunctionalObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#EvenementANationalite"/>
-        <Class IRI="#Competition"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#clubASport"/>
@@ -536,7 +551,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#placeASport"/>
-        <Class IRI="#Competition"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#placeEstPoste"/>
