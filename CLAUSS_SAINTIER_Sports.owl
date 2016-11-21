@@ -122,10 +122,10 @@
         <Class IRI="#Competition"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#foot_jo_16"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
+        <NamedIndividual IRI="#foot_jo_16"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Equipe"/>
@@ -164,10 +164,10 @@
         <NamedIndividual IRI="#Défenseur"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Simple_joueur"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsBasket"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsBasket"/>
+        <NamedIndividual IRI="#Simple_joueur"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#AiliersBasket"/>
@@ -365,6 +365,20 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <NamedIndividual IRI="#Clement_SAINTIER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#personneAPlace"/>
+                <ObjectComplementOf>
+                    <ObjectHasValue>
+                        <ObjectProperty IRI="#placeEstRole"/>
+                        <NamedIndividual IRI="#Capitaine"/>
+                    </ObjectHasValue>
+                </ObjectComplementOf>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
         <NamedIndividual IRI="#Clement_SAINTIER"/>
     </ClassAssertion>
     <ClassAssertion>
