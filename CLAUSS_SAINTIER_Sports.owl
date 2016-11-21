@@ -243,6 +243,29 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#GrandsSportifsFrancais"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#personneAPlace"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#placeParticipeAEvenement"/>
+                        <ObjectHasValue>
+                            <ObjectProperty IRI="#EvenementANationalite"/>
+                            <NamedIndividual IRI="#international"/>
+                        </ObjectHasValue>
+                    </ObjectSomeValuesFrom>
+                </ObjectSomeValuesFrom>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="#personneANationalite"/>
+                    <NamedIndividual IRI="#francais"/>
+                </ObjectHasValue>
+            </ObjectIntersectionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SeulementCapitaines"/>
         <ObjectIntersectionOf>
             <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
@@ -293,6 +316,22 @@
                 <DataProperty IRI="http://xmlns.com/foaf/0.1/gender"/>
                 <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">male</Literal>
             </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsInternationaux"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#personneAPlace"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#placeParticipeAEvenement"/>
+                    <ObjectHasValue>
+                        <ObjectProperty IRI="#EvenementANationalite"/>
+                        <NamedIndividual IRI="#international"/>
+                    </ObjectHasValue>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <SubClassOf>
@@ -478,6 +517,11 @@
         <ObjectProperty IRI="#placeEstRole"/>
         <NamedIndividual IRI="#clementBasket"/>
         <NamedIndividual IRI="#Capitaine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#placeParticipeAEvenement"/>
+        <NamedIndividual IRI="#clementBasket"/>
+        <NamedIndividual IRI="#jo_16"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#EvenementANationalite"/>
