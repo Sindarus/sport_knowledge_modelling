@@ -80,10 +80,10 @@
         <NamedIndividual IRI="#Rugby"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#clementRugby"/>
+        <ObjectProperty IRI="#placeASport"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#placeASport"/>
+        <NamedIndividual IRI="#clementRugby"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#IndividuelsInternationaux"/>
@@ -110,10 +110,10 @@
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#alsacien"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#CapitainesFrancais"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#CapitainesFrancais"/>
+        <NamedIndividual IRI="#alsacien"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#evenementACompet"/>
@@ -146,31 +146,31 @@
         <NamedIndividual IRI="#foot_jo_16"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Equipe"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Equipe"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#personneAPlace"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EquipesPureNasketOuPureRugby"/>
+        <NamedIndividual IRI="#basket_jo_2016"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsInternationaux"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#basket_jo_2016"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EquipesPureNasketOuPureRugby"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#clementBasket"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#rugby_jo_2016"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementBasketInternationaux"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementBasketInternationaux"/>
+        <NamedIndividual IRI="#rugby_jo_2016"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#jo_16"/>
@@ -191,10 +191,10 @@
         <NamedIndividual IRI="#Défenseur"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Simple_joueur"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsBasket"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsBasket"/>
+        <NamedIndividual IRI="#Simple_joueur"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#AiliersBasket"/>
@@ -203,10 +203,10 @@
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EquipesNonMixtesInternationales"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EquipesNonMixtes"/>
+        <ObjectProperty IRI="#equipeJoueSport"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#equipeJoueSport"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EquipesNonMixtes"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Germain_CLAUSS"/>
@@ -587,6 +587,34 @@
         <Class IRI="#Competition"/>
         <NamedIndividual IRI="#rugby_only_compet_2016"/>
     </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Ailier"/>
+        <NamedIndividual IRI="#Arriere"/>
+        <NamedIndividual IRI="#Attaquant"/>
+        <NamedIndividual IRI="#Basket"/>
+        <NamedIndividual IRI="#Capitaine"/>
+        <NamedIndividual IRI="#Clement_SAINTIER"/>
+        <NamedIndividual IRI="#Defenseur"/>
+        <NamedIndividual IRI="#Défenseur"/>
+        <NamedIndividual IRI="#Germain_CLAUSS"/>
+        <NamedIndividual IRI="#Rugby"/>
+        <NamedIndividual IRI="#Simple_joueur"/>
+        <NamedIndividual IRI="#Tennis"/>
+        <NamedIndividual IRI="#allemand"/>
+        <NamedIndividual IRI="#alsacien"/>
+        <NamedIndividual IRI="#basket_jo_2016"/>
+        <NamedIndividual IRI="#clementBasket"/>
+        <NamedIndividual IRI="#clementRugby"/>
+        <NamedIndividual IRI="#foot"/>
+        <NamedIndividual IRI="#foot_jo_16"/>
+        <NamedIndividual IRI="#francais"/>
+        <NamedIndividual IRI="#germainTennis"/>
+        <NamedIndividual IRI="#international"/>
+        <NamedIndividual IRI="#jo_16"/>
+        <NamedIndividual IRI="#rugby_cup_16"/>
+        <NamedIndividual IRI="#rugby_jo_2016"/>
+        <NamedIndividual IRI="#rugby_only_compet_2016"/>
+    </DifferentIndividuals>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#personneANationalite"/>
         <NamedIndividual IRI="#Clement_SAINTIER"/>
@@ -852,5 +880,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
 
