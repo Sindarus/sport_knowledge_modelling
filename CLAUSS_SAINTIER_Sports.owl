@@ -17,40 +17,16 @@
         <NamedIndividual IRI="#international"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#AJ_Slaughter"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsRugbySeulement"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#allemand"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#francais"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#foot"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsMultisports"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Basket"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsInternationaux"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Poste"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Mouhammadou_Jaiteh"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#placeParticipeAEvenement"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Nationalite"/>
@@ -62,19 +38,10 @@
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#rugby_only_compet_2016"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#germainTennis"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#rugby_cup_16"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#competASport"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#sportifAClub"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SeulementCapitaines"/>
@@ -92,25 +59,28 @@
         <NamedIndividual IRI="#clementRugby"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Paul_Lacombe_-_Arriere_meneur"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#IndividuelsInternationaux"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#sportifEstDansEquipe"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#evenementASport"/>
+        <NamedIndividual IRI="#Olivier_Cortale_-_Ailier_fort"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Ailier"/>
+        <ObjectProperty IRI="#evenementASport"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#placeEstPoste"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Paul_Lacombe"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sport"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sport"/>
+        <NamedIndividual IRI="#AJ_Slaughter_-_Arriere"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsHommesNonFrancais"/>
@@ -126,6 +96,105 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#CapitainesFrancais"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arriere"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Frank_Ntilikina_-_Meneur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Romeo_Travis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementBasketInternationaux"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Erik_Murphy_-_Ailier_fort"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arriere_meneur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Defenseur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Matt_Howard"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CompetEstDansEvenement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Défenseur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Matt_Howard_-_Ailier_fort"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Simple_joueur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Erik_Murphy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#equipeJoueSport"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Meneur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pape_Sy_-_Ailier_arriere"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AJ_Slaughter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#francais"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#foot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsMultisports"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Basket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsInternationaux"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mouhammadou_Jaiteh"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#placeParticipeAEvenement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rugby_only_compet_2016"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#germainTennis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Erving_Walker_-_Meneur"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sportifAClub"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ailier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Romeo_Travis_-_Ailier_fort"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paul_Lacombe"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#alsacien"/>
@@ -146,16 +215,10 @@
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#GrandsSportifsFrancais"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Arriere"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Attaquant"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#equipeAClub"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Romeo_Travis"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#placeEstRole"/>
@@ -176,7 +239,7 @@
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Equipe"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
+        <NamedIndividual IRI="#Mouhammadou_-_Pivot"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#personneAPlace"/>
@@ -200,43 +263,19 @@
         <NamedIndividual IRI="#rugby_jo_2016"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementBasketInternationaux"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#sportEstIndividuel"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#jo_16"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Arriere_meneur"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#personneANationalite"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Defenseur"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Role"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Matt_Howard"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#CompetEstDansEvenement"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Défenseur"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsBasket"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Simple_joueur"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#AiliersBasket"/>
@@ -245,13 +284,7 @@
         <NamedIndividual IRI="#Pivot"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Erik_Murphy"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EquipesNonMixtesInternationales"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#equipeJoueSport"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EquipesNonMixtes"/>
@@ -269,10 +302,10 @@
         <NamedIndividual IRI="#Germain_CLAUSS"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Meneur"/>
+        <NamedIndividual IRI="#Tennis"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Tennis"/>
+        <NamedIndividual IRI="#Jeremy_Leloup_-_Ailier"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
@@ -539,6 +572,10 @@
         <NamedIndividual IRI="#AJ_Slaughter"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <NamedIndividual IRI="#AJ_Slaughter_-_Arriere"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Poste"/>
         <NamedIndividual IRI="#Ailier"/>
     </ClassAssertion>
@@ -597,12 +634,24 @@
         <NamedIndividual IRI="#Erik_Murphy"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <NamedIndividual IRI="#Erik_Murphy_-_Ailier_fort"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
         <NamedIndividual IRI="#Erving_Walker"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <NamedIndividual IRI="#Erving_Walker_-_Meneur"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
         <NamedIndividual IRI="#Frank_Ntilikina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <NamedIndividual IRI="#Frank_Ntilikina_-_Meneur"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
@@ -613,12 +662,24 @@
         <NamedIndividual IRI="#Jeremy_Leloup"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <NamedIndividual IRI="#Jeremy_Leloup_-_Ailier"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
         <NamedIndividual IRI="#Matt_Howard"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <NamedIndividual IRI="#Matt_Howard_-_Ailier_fort"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Poste"/>
         <NamedIndividual IRI="#Meneur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <NamedIndividual IRI="#Mouhammadou_-_Pivot"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
@@ -629,12 +690,24 @@
         <NamedIndividual IRI="#Olivier_Cortale"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <NamedIndividual IRI="#Olivier_Cortale_-_Ailier_fort"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
         <NamedIndividual IRI="#Pape_Sy"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <NamedIndividual IRI="#Pape_Sy_-_Ailier_arriere"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
         <NamedIndividual IRI="#Paul_Lacombe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <NamedIndividual IRI="#Paul_Lacombe_-_Arriere_meneur"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Poste"/>
@@ -643,6 +716,10 @@
     <ClassAssertion>
         <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
         <NamedIndividual IRI="#Romeo_Travis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <NamedIndividual IRI="#Romeo_Travis_-_Ailier_fort"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sport"/>
@@ -759,6 +836,21 @@
         <NamedIndividual IRI="#francais"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personneAPlace"/>
+        <NamedIndividual IRI="#AJ_Slaughter"/>
+        <NamedIndividual IRI="#AJ_Slaughter_-_Arriere"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#placeASport"/>
+        <NamedIndividual IRI="#AJ_Slaughter_-_Arriere"/>
+        <NamedIndividual IRI="#Basket"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#placeEstPoste"/>
+        <NamedIndividual IRI="#AJ_Slaughter_-_Arriere"/>
+        <NamedIndividual IRI="#Arriere"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#personneANationalite"/>
         <NamedIndividual IRI="#Clement_SAINTIER"/>
         <NamedIndividual IRI="#francais"/>
@@ -779,14 +871,59 @@
         <NamedIndividual IRI="#francais"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personneAPlace"/>
+        <NamedIndividual IRI="#Erik_Murphy"/>
+        <NamedIndividual IRI="#Erik_Murphy_-_Ailier_fort"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#placeASport"/>
+        <NamedIndividual IRI="#Erik_Murphy_-_Ailier_fort"/>
+        <NamedIndividual IRI="#Basket"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#placeEstPoste"/>
+        <NamedIndividual IRI="#Erik_Murphy_-_Ailier_fort"/>
+        <NamedIndividual IRI="#Ailier_fort"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#personneANationalite"/>
         <NamedIndividual IRI="#Erving_Walker"/>
         <NamedIndividual IRI="#francais"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personneAPlace"/>
+        <NamedIndividual IRI="#Erving_Walker"/>
+        <NamedIndividual IRI="#Erving_Walker_-_Meneur"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#placeASport"/>
+        <NamedIndividual IRI="#Erving_Walker_-_Meneur"/>
+        <NamedIndividual IRI="#Basket"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#placeEstPoste"/>
+        <NamedIndividual IRI="#Erving_Walker_-_Meneur"/>
+        <NamedIndividual IRI="#Meneur"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#personneANationalite"/>
         <NamedIndividual IRI="#Frank_Ntilikina"/>
         <NamedIndividual IRI="#francais"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personneAPlace"/>
+        <NamedIndividual IRI="#Frank_Ntilikina"/>
+        <NamedIndividual IRI="#Frank_Ntilikina_-_Meneur"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#placeASport"/>
+        <NamedIndividual IRI="#Frank_Ntilikina_-_Meneur"/>
+        <NamedIndividual IRI="#Basket"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#placeEstPoste"/>
+        <NamedIndividual IRI="#Frank_Ntilikina_-_Meneur"/>
+        <NamedIndividual IRI="#Meneur"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#personneAPlace"/>
@@ -799,9 +936,49 @@
         <NamedIndividual IRI="#francais"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personneAPlace"/>
+        <NamedIndividual IRI="#Jeremy_Leloup"/>
+        <NamedIndividual IRI="#Jeremy_Leloup_-_Ailier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#placeASport"/>
+        <NamedIndividual IRI="#Jeremy_Leloup_-_Ailier"/>
+        <NamedIndividual IRI="#Basket"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#placeEstPoste"/>
+        <NamedIndividual IRI="#Jeremy_Leloup_-_Ailier"/>
+        <NamedIndividual IRI="#Ailier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#personneANationalite"/>
         <NamedIndividual IRI="#Matt_Howard"/>
         <NamedIndividual IRI="#francais"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personneAPlace"/>
+        <NamedIndividual IRI="#Matt_Howard"/>
+        <NamedIndividual IRI="#Matt_Howard_-_Ailier_fort"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#placeASport"/>
+        <NamedIndividual IRI="#Matt_Howard_-_Ailier_fort"/>
+        <NamedIndividual IRI="#Basket"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#placeEstPoste"/>
+        <NamedIndividual IRI="#Matt_Howard_-_Ailier_fort"/>
+        <NamedIndividual IRI="#Ailier_fort"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#placeASport"/>
+        <NamedIndividual IRI="#Mouhammadou_-_Pivot"/>
+        <NamedIndividual IRI="#Basket"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#placeEstPoste"/>
+        <NamedIndividual IRI="#Mouhammadou_-_Pivot"/>
+        <NamedIndividual IRI="#Pivot"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#personneANationalite"/>
@@ -809,9 +986,29 @@
         <NamedIndividual IRI="#francais"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personneAPlace"/>
+        <NamedIndividual IRI="#Mouhammadou_Jaiteh"/>
+        <NamedIndividual IRI="#Mouhammadou_-_Pivot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#personneANationalite"/>
         <NamedIndividual IRI="#Olivier_Cortale"/>
         <NamedIndividual IRI="#francais"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personneAPlace"/>
+        <NamedIndividual IRI="#Olivier_Cortale"/>
+        <NamedIndividual IRI="#Olivier_Cortale_-_Ailier_fort"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#placeASport"/>
+        <NamedIndividual IRI="#Olivier_Cortale_-_Ailier_fort"/>
+        <NamedIndividual IRI="#Basket"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#placeEstPoste"/>
+        <NamedIndividual IRI="#Olivier_Cortale_-_Ailier_fort"/>
+        <NamedIndividual IRI="#Ailier_fort"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#personneANationalite"/>
@@ -819,14 +1016,59 @@
         <NamedIndividual IRI="#francais"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personneAPlace"/>
+        <NamedIndividual IRI="#Pape_Sy"/>
+        <NamedIndividual IRI="#Pape_Sy_-_Ailier_arriere"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#placeASport"/>
+        <NamedIndividual IRI="#Pape_Sy_-_Ailier_arriere"/>
+        <NamedIndividual IRI="#Basket"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#placeEstPoste"/>
+        <NamedIndividual IRI="#Pape_Sy_-_Ailier_arriere"/>
+        <NamedIndividual IRI="#Ailier_arriere"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#personneANationalite"/>
         <NamedIndividual IRI="#Paul_Lacombe"/>
         <NamedIndividual IRI="#francais"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personneAPlace"/>
+        <NamedIndividual IRI="#Paul_Lacombe"/>
+        <NamedIndividual IRI="#Paul_Lacombe_-_Arriere_meneur"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#placeASport"/>
+        <NamedIndividual IRI="#Paul_Lacombe_-_Arriere_meneur"/>
+        <NamedIndividual IRI="#Basket"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#placeEstPoste"/>
+        <NamedIndividual IRI="#Paul_Lacombe_-_Arriere_meneur"/>
+        <NamedIndividual IRI="#Arriere_meneur"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#personneANationalite"/>
         <NamedIndividual IRI="#Romeo_Travis"/>
         <NamedIndividual IRI="#francais"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personneAPlace"/>
+        <NamedIndividual IRI="#Romeo_Travis"/>
+        <NamedIndividual IRI="#Romeo_Travis_-_Ailier_fort"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#placeASport"/>
+        <NamedIndividual IRI="#Romeo_Travis_-_Ailier_fort"/>
+        <NamedIndividual IRI="#Basket"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#placeEstPoste"/>
+        <NamedIndividual IRI="#Romeo_Travis_-_Ailier_fort"/>
+        <NamedIndividual IRI="#Ailier_fort"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#competASport"/>
