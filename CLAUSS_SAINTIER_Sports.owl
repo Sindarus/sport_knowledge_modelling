@@ -23,9 +23,6 @@
         <NamedIndividual IRI="#allemand"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#estIndividuel"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#francais"/>
     </Declaration>
     <Declaration>
@@ -80,6 +77,9 @@
         <NamedIndividual IRI="#Rugby"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#evenementANationalite"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#placeASport"/>
     </Declaration>
     <Declaration>
@@ -102,9 +102,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsHommesNonFrancais"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#EvenementANationalite"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
@@ -171,6 +168,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#rugby_jo_2016"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sportEstIndividuel"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#jo_16"/>
@@ -265,7 +265,7 @@
                 </ObjectHasValue>
             </ObjectSomeValuesFrom>
             <ObjectHasValue>
-                <ObjectProperty IRI="#EvenementANationalite"/>
+                <ObjectProperty IRI="#evenementANationalite"/>
                 <NamedIndividual IRI="#international"/>
             </ObjectHasValue>
         </ObjectIntersectionOf>
@@ -288,12 +288,16 @@
         <ObjectIntersectionOf>
             <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
             <ObjectHasValue>
-                <ObjectProperty IRI="#EvenementANationalite"/>
+                <ObjectProperty IRI="#evenementANationalite"/>
                 <NamedIndividual IRI="#international"/>
             </ObjectHasValue>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">On considère qu&apos;un evenement ne peut avoir plus d&apos;une competition d&apos;un sport donné</Literal>
+        </Annotation>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsMultisports"/>
         <ObjectIntersectionOf>
             <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
@@ -320,23 +324,60 @@
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#GrandsSportifsFrancais"/>
         <ObjectIntersectionOf>
             <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
-            <ObjectIntersectionOf>
-                <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
-                <ObjectHasValue>
-                    <ObjectProperty IRI="#personneANationalite"/>
-                    <NamedIndividual IRI="#francais"/>
-                </ObjectHasValue>
-                <ObjectMinCardinality cardinality="2">
+            <ObjectHasValue>
+                <ObjectProperty IRI="#personneANationalite"/>
+                <NamedIndividual IRI="#francais"/>
+            </ObjectHasValue>
+            <ObjectMinCardinality cardinality="2">
+                <ObjectProperty IRI="#personneAPlace"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#placeParticipeAEvenement"/>
+                    <ObjectHasValue>
+                        <ObjectProperty IRI="#evenementANationalite"/>
+                        <NamedIndividual IRI="#international"/>
+                    </ObjectHasValue>
+                </ObjectSomeValuesFrom>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#IndividuelsInternationaux"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+            <ObjectComplementOf>
+                <ObjectSomeValuesFrom>
                     <ObjectProperty IRI="#personneAPlace"/>
                     <ObjectSomeValuesFrom>
                         <ObjectProperty IRI="#placeParticipeAEvenement"/>
-                        <ObjectHasValue>
-                            <ObjectProperty IRI="#EvenementANationalite"/>
-                            <NamedIndividual IRI="#international"/>
-                        </ObjectHasValue>
+                        <ObjectComplementOf>
+                            <ObjectHasValue>
+                                <ObjectProperty IRI="#evenementANationalite"/>
+                                <NamedIndividual IRI="#international"/>
+                            </ObjectHasValue>
+                        </ObjectComplementOf>
                     </ObjectSomeValuesFrom>
-                </ObjectMinCardinality>
-            </ObjectIntersectionOf>
+                </ObjectSomeValuesFrom>
+            </ObjectComplementOf>
+            <ObjectComplementOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#personneAPlace"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#placeParticipeAEvenement"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="#evenementACompet"/>
+                            <ObjectSomeValuesFrom>
+                                <ObjectProperty IRI="#competASport"/>
+                                <ObjectComplementOf>
+                                    <DataHasValue>
+                                        <DataProperty IRI="#sportEstIndividuel"/>
+                                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                                    </DataHasValue>
+                                </ObjectComplementOf>
+                            </ObjectSomeValuesFrom>
+                        </ObjectSomeValuesFrom>
+                    </ObjectSomeValuesFrom>
+                </ObjectSomeValuesFrom>
+            </ObjectComplementOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
@@ -401,17 +442,13 @@
                 <ObjectSomeValuesFrom>
                     <ObjectProperty IRI="#placeParticipeAEvenement"/>
                     <ObjectHasValue>
-                        <ObjectProperty IRI="#EvenementANationalite"/>
+                        <ObjectProperty IRI="#evenementANationalite"/>
                         <NamedIndividual IRI="#international"/>
                     </ObjectHasValue>
                 </ObjectSomeValuesFrom>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#AiliersBasket"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
-    </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
@@ -446,14 +483,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#GrandsSportifsFrancais"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#IndividuelsInternationaux"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SeulementCapitaines"/>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
     </SubClassOf>
     <SubClassOf>
@@ -686,11 +715,6 @@
         <NamedIndividual IRI="#foot"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#EvenementANationalite"/>
-        <NamedIndividual IRI="#jo_16"/>
-        <NamedIndividual IRI="#international"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#evenementACompet"/>
         <NamedIndividual IRI="#jo_16"/>
         <NamedIndividual IRI="#basket_jo_2016"/>
@@ -704,6 +728,11 @@
         <ObjectProperty IRI="#evenementACompet"/>
         <NamedIndividual IRI="#jo_16"/>
         <NamedIndividual IRI="#rugby_jo_2016"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evenementANationalite"/>
+        <NamedIndividual IRI="#jo_16"/>
+        <NamedIndividual IRI="#international"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#evenementACompet"/>
@@ -762,10 +791,6 @@
         <ObjectProperty IRI="#evenementACompet"/>
     </InverseFunctionalObjectProperty>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#EvenementANationalite"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#clubASport"/>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
     </ObjectPropertyDomain>
@@ -783,6 +808,10 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#evenementACompet"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#evenementANationalite"/>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -814,10 +843,6 @@
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#EvenementANationalite"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Nationalite"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#clubASport"/>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sport"/>
     </ObjectPropertyRange>
@@ -836,6 +861,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#evenementACompet"/>
         <Class IRI="#Competition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#evenementANationalite"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Nationalite"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#personneAPlace"/>
@@ -866,14 +895,14 @@
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Equipe"/>
     </ObjectPropertyRange>
     <FunctionalDataProperty>
-        <DataProperty IRI="#estIndividuel"/>
+        <DataProperty IRI="#sportEstIndividuel"/>
     </FunctionalDataProperty>
     <DataPropertyDomain>
-        <DataProperty IRI="#estIndividuel"/>
+        <DataProperty IRI="#sportEstIndividuel"/>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sport"/>
     </DataPropertyDomain>
     <DataPropertyRange>
-        <DataProperty IRI="#estIndividuel"/>
+        <DataProperty IRI="#sportEstIndividuel"/>
         <Datatype abbreviatedIRI="xsd:boolean"/>
     </DataPropertyRange>
 </Ontology>
