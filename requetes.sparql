@@ -1,0 +1,10 @@
+#DECLARATION DES PREFIXES
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX moi: <http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#>
+
+#REQUETE 1 : Sportifs et leurs nationalités.
+SELECT ?a ?b
+WHERE { ?a moi:personneANationalite ?b }
