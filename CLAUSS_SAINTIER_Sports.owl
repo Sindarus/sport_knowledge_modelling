@@ -23,6 +23,9 @@
         <NamedIndividual IRI="#allemand"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#evenementAIntitule"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Poste"/>
     </Declaration>
     <Declaration>
@@ -137,10 +140,10 @@
         <NamedIndividual IRI="#Matt_Howard"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Défenseur"/>
+        <ObjectProperty IRI="#CompetEstDansEvenement"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#CompetEstDansEvenement"/>
+        <NamedIndividual IRI="#Défenseur"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Matt_Howard_-_Ailier_fort"/>
@@ -186,6 +189,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#placeParticipeAEvenement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#evenementAAnnee"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#rugby_only_compet_2016"/>
@@ -1415,6 +1421,16 @@
         <NamedIndividual IRI="#Tennis"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#evenementAAnnee"/>
+        <NamedIndividual IRI="#jo_16"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#evenementAIntitule"/>
+        <NamedIndividual IRI="#jo_16"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Jeux olympiques de 2016</Literal>
+    </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#clubASport"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
@@ -1611,9 +1627,25 @@
         <DataProperty IRI="#sportEstIndividuel"/>
     </FunctionalDataProperty>
     <DataPropertyDomain>
+        <DataProperty IRI="#evenementAAnnee"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#evenementAIntitule"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#sportEstIndividuel"/>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sport"/>
     </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#evenementAAnnee"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#evenementAIntitule"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#sportEstIndividuel"/>
         <Datatype abbreviatedIRI="xsd:boolean"/>

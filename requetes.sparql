@@ -8,3 +8,10 @@ PREFIX moi: <http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTI
 #REQUETE 1 : Sportifs et leurs nationalités.
 SELECT ?a ?b
 WHERE { ?a moi:personneANationalite ?b }
+
+#REQUETE 2 : Intitulés de tous les événements sportifs répertoriés pour l'année 2016
+SELECT ?intitule_evenement
+WHERE {
+	?x moi:evenementAIntitule ?intitule_evenement;
+	moi:evenementAAnnee 2016
+}
