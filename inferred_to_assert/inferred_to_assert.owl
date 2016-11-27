@@ -6,7 +6,6 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/sindarus/ontologies/2016/10/inferred_to_assert">
-    <Prefix name="" IRI="http://www.semanticweb.org/sindarus/ontologies/2016/10/inferred_to_assert"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -21,181 +20,151 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Friend of a Friend (FOAF) vocabulary</Literal>
     </Annotation>
     <Declaration>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#international"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/workInfoHomepage"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://xmlns.com/foaf/0.1/Document"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsRugbySeulement"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#allemand"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.org/dc/terms/Agent"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EquipesNonMixtesInternationales"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://xmlns.com/foaf/0.1/fundedBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/phone"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeParticipeAEvenement"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="http://xmlns.com/foaf/0.1/plan"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/schoolHomepage"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#evenementAIntitule"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/OnlineEcommerceAccount"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Poste"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://xmlns.com/foaf/0.1/accountName"/>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/primaryTopic"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://xmlns.com/foaf/0.1/OnlineAccount"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/made"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Competition"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Clement_SAINTIER"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Nationalite"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#sportifAClub"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EquipesPureBasketOuPureRugby"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Capitaine"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeASportif"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Romeo_Travis"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SIG_Strasbourg"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://xmlns.com/foaf/0.1/myersBriggs"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/mbox"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#rugby_cup_16"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#competASport"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://xmlns.com/foaf/0.1/nick"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SeulementCapitaines"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Meneur"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Rugby"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#evenementANationalite"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Défenseur"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#clementRugby"/>
+        <Class IRI="http://schema.org/ImageObject"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#placeASport"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EquipesNonMixtes"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://xmlns.com/foaf/0.1/title"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Paul_Lacombe_-_Arriere_meneur"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://xmlns.com/foaf/0.1/age"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#IndividuelsInternationaux"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#sportifEstDansEquipe"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Olivier_Cortale_-_Ailier_fort"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#evenementASport"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/holdsAccount"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#placeEstPoste"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sport"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/depiction"/>
+        <DataProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#sportEstIndividuel"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#AJ_Slaughter_-_Arriere"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Clement_SAINTIER"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/img"/>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/theme"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsHommesNonFrancais"/>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/phone"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/knows"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/logo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://xmlns.com/foaf/0.1/Group"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/depicts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Mouhammadou_Jaiteh"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/nick"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/accountName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#AJ_Slaughter"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#evenementAAnnee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#jo_16"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#rugby_cup_16"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Personne_Non_sportive"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/thumbnail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Person"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#clementBasket"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="http://xmlns.com/foaf/0.1/geekcode"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Jeremy_Leloup"/>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/homepage"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/interest"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#placeParticipeACompet"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#CompetEstDansEvenement"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#CapitainesFrancais"/>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/pastProject"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://xmlns.com/foaf/0.1/surname"/>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/status"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/based_near"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#evenementASport"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Matt_Howard_-_Ailier_fort"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/weblog"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EvenementBasketInternationaux"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Arriere"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Romeo_Travis_-_Ailier_fort"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Frank_Ntilikina_-_Meneur"/>
@@ -204,376 +173,403 @@
         <ObjectProperty IRI="http://xmlns.com/foaf/0.1/workplaceHomepage"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Romeo_Travis"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/page"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/topic_interest"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://xmlns.com/foaf/0.1/givenName"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementBasketInternationaux"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/openid"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Erik_Murphy_-_Ailier_fort"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Arriere_meneur"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Defenseur"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Défenseur"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#CompetEstDansEvenement"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Matt_Howard"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Matt_Howard_-_Ailier_fort"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Simple_joueur"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://xmlns.com/foaf/0.1/OnlineGamingAccount"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/primaryTopic"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Erik_Murphy"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeJoueSport"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://xmlns.com/foaf/0.1/Image"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://schema.org/CreativeWork"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Meneur"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Pape_Sy_-_Ailier_arriere"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://xmlns.com/foaf/0.1/skypeID"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/knows"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#AJ_Slaughter"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/currentProject"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://xmlns.com/foaf/0.1/gender"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#foot"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#francais"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsMultisports"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Basket"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/focus"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsInternationaux"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://schema.org/ImageObject"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://schema.org/Person"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/publications"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Mouhammadou_Jaiteh"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeParticipeAEvenement"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#placeParticipeAEvenement"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://xmlns.com/foaf/0.1/dnaChecksum"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#evenementAAnnee"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#rugby_only_compet_2016"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#germainTennis"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Erving_Walker_-_Meneur"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#sportifAClub"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/maker"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://xmlns.com/foaf/0.1/Group"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://xmlns.com/foaf/0.1/birthday"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Ailier"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Romeo_Travis_-_Ailier_fort"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://xmlns.com/foaf/0.1/family_name"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Paul_Lacombe"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SIG_Basket"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://xmlns.com/foaf/0.1/sha1"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://xmlns.com/foaf/0.1/givenname"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#finlandais"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/logo"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#alsacien"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#evenementACompet"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Capitaine"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://xmlns.com/foaf/0.1/status"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#clubASport"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Ailier_arriere"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://xmlns.com/foaf/0.1/OnlineChatAccount"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#GrandsSportifsFrancais"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Attaquant"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeAClub"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#placeEstRole"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Olivier_Cortale"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Personne_Non_sportive"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Pape_Sy"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/tipjar"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Competition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Equipe"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Mouhammadou_-_Pivot"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#foot_jo_16"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Germain_CLAUSS"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://xmlns.com/foaf/0.1/accountServiceHomepage"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/depicts"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Erik_Murphy_-_Ailier_fort"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Frank_Ntilikina"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SeulementCapitaines"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#personneAPlace"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#allemand"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsInternationaux"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#evenementACompet"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#mon_equipe"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#sportifEstDansEquipe"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#basket_jo_2016"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#clementBasket"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/pastProject"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/member"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/theme"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#rugby_jo_2016"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#sportEstIndividuel"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#jo_16"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#personneANationalite"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/topic"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Role"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://xmlns.com/foaf/0.1/OnlineEcommerceAccount"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/homepage"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsBasket"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#placeParticipeACompet"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Pivot"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#AiliersBasket"/>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/holdsAccount"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EquipesNonMixtesInternationales"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Image"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#tennis_jo_16"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#AiliersBasket"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EquipesNonMixtes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Attaquant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/weblog"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Evenement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Erving_Walker_-_Meneur"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/member"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/topic_interest"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/focus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Club"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/CreativeWork"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/birthday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Olivier_Cortale_-_Ailier_fort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/maker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/surname"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/mbox"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#mon_equipe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#placeEstPoste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Paul_Lacombe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/dc/terms/Agent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/workInfoHomepage"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Ailier_fort"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/interest"/>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/openid"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Erving_Walker"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#rugby_jo_2016"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://xmlns.com/foaf/0.1/familyName"/>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/gender"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://xmlns.com/foaf/0.1/PersonalProfileDocument"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Jeremy_Leloup"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/schoolHomepage"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Role"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/thumbnail"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Mouhammadou_-_Pivot"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Germain_CLAUSS"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Tennis"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Jeremy_Leloup_-_Ailier"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Erik_Murphy"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://xmlns.com/foaf/0.1/account"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://xmlns.com/foaf/0.1/OnlineChatAccount"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#personneAPlace"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Ailier_arriere"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/givenname"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EquipesPureBasketOuPureRugby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#foot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Nationalite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/page"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/myersBriggs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#germainTennis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://xmlns.com/foaf/0.1/OnlineGamingAccount"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/based_near"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#competASport"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeJoueSport"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/family_name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#finlandais"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Ailier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeAClub"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Tennis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Defenseur"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/dnaChecksum"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EvenementsMultisports"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/title"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsInternationaux"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/currentProject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#placeParticipeAEvenement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#placeEstRole"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Frank_Ntilikina"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#evenementAIntitule"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Pape_Sy"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Simple_joueur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Equipe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsFrancais"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#personneANationalite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#foot_jo_16"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EvenementsInternationaux"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#clementRugby"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Arriere_meneur"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/depiction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#IndividuelsInternationaux"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Olivier_Cortale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/familyName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EvenementsBasket"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/img"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Arriere"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#alsacien"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SIG_Strasbourg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#basket_jo_2016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://xmlns.com/foaf/0.1/Document"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Poste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#francais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#GrandsSportifsFrancais"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Paul_Lacombe_-_Arriere_meneur"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#international"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/made"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/topic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SIG_Basket"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Pape_Sy_-_Ailier_arriere"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#rugby_only_compet_2016"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Basket"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#tennis_jo_16"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/publications"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#placeASport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#CapitainesFrancais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsHommesNonFrancais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sport"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeASportif"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#evenementANationalite"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/sha1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/skypeID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/givenName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Erving_Walker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Jeremy_Leloup_-_Ailier"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#clubASport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://xmlns.com/foaf/0.1/PersonalProfileDocument"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/tipjar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EvenementsRugbySeulement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Matt_Howard"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="http://purl.org/dc/terms/Agent"/>
@@ -597,9 +593,9 @@
         <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#AiliersBasket"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#AiliersBasket"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#personneAPlace"/>
                 <ObjectIntersectionOf>
@@ -616,9 +612,9 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#CapitainesFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#CapitainesFrancais"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#personneAPlace"/>
                 <ObjectHasValue>
@@ -633,9 +629,9 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EquipesNonMixtes"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EquipesNonMixtes"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Equipe"/>
+            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Equipe"/>
             <ObjectUnionOf>
                 <ObjectAllValuesFrom>
                     <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeASportif"/>
@@ -655,9 +651,9 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EquipesNonMixtesInternationales"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EquipesNonMixtesInternationales"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EquipesNonMixtes"/>
+            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EquipesNonMixtes"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeParticipeAEvenement"/>
                 <ObjectHasValue>
@@ -668,9 +664,9 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EquipesPureBasketOuPureRugby"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EquipesPureBasketOuPureRugby"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Equipe"/>
+            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Equipe"/>
             <ObjectUnionOf>
                 <ObjectHasValue>
                     <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeJoueSport"/>
@@ -687,9 +683,9 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementBasketInternationaux"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EvenementBasketInternationaux"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
+            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Evenement"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#evenementACompet"/>
                 <ObjectHasValue>
@@ -704,9 +700,9 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsBasket"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EvenementsBasket"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
+            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Evenement"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#evenementACompet"/>
                 <ObjectHasValue>
@@ -717,9 +713,9 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsInternationaux"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EvenementsInternationaux"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
+            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Evenement"/>
             <ObjectHasValue>
                 <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#evenementANationalite"/>
                 <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#international"/>
@@ -731,18 +727,18 @@
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
             <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">On considère qu&apos;un evenement ne peut avoir plus d&apos;une competition d&apos;un sport donné</Literal>
         </Annotation>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsMultisports"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EvenementsMultisports"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
+            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Evenement"/>
             <ObjectMinCardinality cardinality="2">
                 <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#evenementACompet"/>
             </ObjectMinCardinality>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsRugbySeulement"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EvenementsRugbySeulement"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
+            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Evenement"/>
             <ObjectAllValuesFrom>
                 <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#evenementACompet"/>
                 <ObjectHasValue>
@@ -753,9 +749,9 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#GrandsSportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#GrandsSportifsFrancais"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
             <ObjectHasValue>
                 <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#personneANationalite"/>
                 <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#francais"/>
@@ -779,9 +775,9 @@
 1) ne peut avoir une place qui participe a une compet qui est dans un evenement qui n&apos;est pas international
 2) ne peut avoir une place qui participe a une compet dont le sport n&apos;est pas individuel</Literal>
         </Annotation>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#IndividuelsInternationaux"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#IndividuelsInternationaux"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
             <ObjectComplementOf>
                 <ObjectSomeValuesFrom>
                     <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#personneAPlace"/>
@@ -819,9 +815,9 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SeulementCapitaines"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SeulementCapitaines"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
             <ObjectComplementOf>
                 <ObjectSomeValuesFrom>
                     <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#personneAPlace"/>
@@ -836,19 +832,19 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
         <ObjectIntersectionOf>
             <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#personneAPlace"/>
-                <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+                <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Place"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsFrancais"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
             <ObjectHasValue>
                 <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#personneANationalite"/>
                 <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#francais"/>
@@ -856,9 +852,9 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsHommesNonFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsHommesNonFrancais"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
             <ObjectComplementOf>
                 <ObjectHasValue>
                     <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#personneANationalite"/>
@@ -872,9 +868,9 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsInternationaux"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsInternationaux"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#personneAPlace"/>
                 <ObjectSomeValuesFrom>
@@ -912,100 +908,100 @@
         <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#AiliersBasket"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#AiliersBasket"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#CapitainesFrancais"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#CapitainesFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsFrancais"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Club"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Equipe"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Equipe"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Group"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EquipesNonMixtes"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Equipe"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EquipesNonMixtes"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Equipe"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EquipesNonMixtesInternationales"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Equipe"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EquipesNonMixtesInternationales"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Equipe"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EquipesNonMixtesInternationales"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EquipesNonMixtes"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EquipesNonMixtesInternationales"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EquipesNonMixtes"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EquipesPureBasketOuPureRugby"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Equipe"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EquipesPureBasketOuPureRugby"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Equipe"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementBasketInternationaux"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsBasket"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EvenementBasketInternationaux"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EvenementsBasket"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementBasketInternationaux"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsInternationaux"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EvenementBasketInternationaux"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EvenementsInternationaux"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsBasket"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EvenementsBasket"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Evenement"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsInternationaux"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EvenementsInternationaux"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Evenement"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsMultisports"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EvenementsMultisports"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Evenement"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsRugbySeulement"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EvenementsRugbySeulement"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Evenement"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#GrandsSportifsFrancais"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#GrandsSportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsFrancais"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#GrandsSportifsFrancais"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsInternationaux"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#GrandsSportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsInternationaux"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#IndividuelsInternationaux"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#IndividuelsInternationaux"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SeulementCapitaines"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SeulementCapitaines"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
         <Class IRI="http://schema.org/Person"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
         <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsHommesNonFrancais"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsHommesNonFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsInternationaux"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsInternationaux"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
@@ -1081,7 +1077,7 @@
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="http://schema.org/CreativeWork"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Club"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://schema.org/CreativeWork"/>
@@ -1093,7 +1089,7 @@
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://schema.org/ImageObject"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Club"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://schema.org/ImageObject"/>
@@ -1105,7 +1101,7 @@
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://schema.org/Person"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Club"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://schema.org/Person"/>
@@ -1116,143 +1112,143 @@
         <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#AiliersBasket"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#AiliersBasket"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Club"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#AiliersBasket"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#AiliersBasket"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#AiliersBasket"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#AiliersBasket"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#CapitainesFrancais"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#CapitainesFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Club"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#CapitainesFrancais"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsHommesNonFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#CapitainesFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsHommesNonFrancais"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#CapitainesFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#CapitainesFrancais"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#CapitainesFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#CapitainesFrancais"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#GrandsSportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Club"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#GrandsSportifsFrancais"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#IndividuelsInternationaux"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Club"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#IndividuelsInternationaux"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SeulementCapitaines"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Club"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SeulementCapitaines"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Club"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Club"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsFrancais"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsHommesNonFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Club"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsHommesNonFrancais"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsInternationaux"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Club"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsInternationaux"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Club"/>
         <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Club"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Document"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Club"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Image"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Club"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Club"/>
         <Class IRI="http://xmlns.com/foaf/0.1/PersonalProfileDocument"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#GrandsSportifsFrancais"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsHommesNonFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#GrandsSportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsHommesNonFrancais"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#GrandsSportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#GrandsSportifsFrancais"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#GrandsSportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#GrandsSportifsFrancais"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#IndividuelsInternationaux"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#IndividuelsInternationaux"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#IndividuelsInternationaux"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#IndividuelsInternationaux"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SeulementCapitaines"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SeulementCapitaines"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SeulementCapitaines"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SeulementCapitaines"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsHommesNonFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsHommesNonFrancais"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsFrancais"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsFrancais"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsHommesNonFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsHommesNonFrancais"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsHommesNonFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsHommesNonFrancais"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsInternationaux"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsInternationaux"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsInternationaux"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsInternationaux"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
     </DisjointClasses>
     <DisjointClasses>
@@ -1304,11 +1300,11 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#AJ_Slaughter"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#AJ_Slaughter"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsFrancais"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#AJ_Slaughter"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1328,39 +1324,39 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#AJ_Slaughter"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Place"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#AJ_Slaughter_-_Arriere"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Poste"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Poste"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Ailier"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Poste"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Poste"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Ailier_arriere"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Poste"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Poste"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Ailier_fort"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Poste"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Poste"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Arriere"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Poste"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Poste"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Arriere_meneur"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Poste"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Poste"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Attaquant"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sport"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sport"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Basket"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Role"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Role"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Capitaine"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1372,23 +1368,23 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Clement_SAINTIER"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#AiliersBasket"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#AiliersBasket"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Clement_SAINTIER"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#CapitainesFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#CapitainesFrancais"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Clement_SAINTIER"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SeulementCapitaines"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SeulementCapitaines"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Clement_SAINTIER"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Clement_SAINTIER"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsFrancais"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Clement_SAINTIER"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1422,7 +1418,7 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Clement_SAINTIER"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Poste"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Poste"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Defenseur"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1434,11 +1430,11 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Erik_Murphy"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Erik_Murphy"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsFrancais"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Erik_Murphy"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1458,7 +1454,7 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Erik_Murphy"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Place"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Erik_Murphy_-_Ailier_fort"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1470,11 +1466,11 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Erving_Walker"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Erving_Walker"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsFrancais"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Erving_Walker"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1494,7 +1490,7 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Erving_Walker"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Place"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Erving_Walker_-_Meneur"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1506,7 +1502,7 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Frank_Ntilikina"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Frank_Ntilikina"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1526,7 +1522,7 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Frank_Ntilikina"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Place"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Frank_Ntilikina_-_Meneur"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1538,15 +1534,15 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Germain_CLAUSS"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Germain_CLAUSS"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsHommesNonFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsHommesNonFrancais"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Germain_CLAUSS"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsInternationaux"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsInternationaux"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Germain_CLAUSS"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1574,15 +1570,15 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Jeremy_Leloup"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#AiliersBasket"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#AiliersBasket"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Jeremy_Leloup"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Jeremy_Leloup"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsFrancais"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Jeremy_Leloup"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1602,7 +1598,7 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Jeremy_Leloup"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Place"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Jeremy_Leloup_-_Ailier"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1614,11 +1610,11 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Matt_Howard"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Matt_Howard"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsFrancais"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Matt_Howard"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1638,15 +1634,15 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Matt_Howard"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Place"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Matt_Howard_-_Ailier_fort"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Poste"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Poste"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Meneur"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Place"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Mouhammadou_-_Pivot"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1658,11 +1654,11 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Mouhammadou_Jaiteh"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Mouhammadou_Jaiteh"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsFrancais"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Mouhammadou_Jaiteh"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1690,11 +1686,11 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Olivier_Cortale"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Olivier_Cortale"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsFrancais"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Olivier_Cortale"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1714,7 +1710,7 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Olivier_Cortale"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Place"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Olivier_Cortale_-_Ailier_fort"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1726,11 +1722,11 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Pape_Sy"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Pape_Sy"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsFrancais"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Pape_Sy"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1750,7 +1746,7 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Pape_Sy"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Place"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Pape_Sy_-_Ailier_arriere"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1762,11 +1758,11 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Paul_Lacombe"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Paul_Lacombe"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsFrancais"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Paul_Lacombe"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1786,7 +1782,7 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Paul_Lacombe"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Place"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Paul_Lacombe_-_Arriere_meneur"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1814,7 +1810,7 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Personne_Non_sportive"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Poste"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Poste"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Pivot"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1826,11 +1822,11 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Romeo_Travis"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Romeo_Travis"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#SportifsFrancais"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SportifsFrancais"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Romeo_Travis"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1850,11 +1846,11 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Romeo_Travis"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Place"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Romeo_Travis_-_Ailier_fort"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sport"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sport"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Rugby"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1862,7 +1858,7 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SIG_Basket"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Equipe"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Equipe"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SIG_Basket"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1878,7 +1874,7 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SIG_Strasbourg"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Club"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SIG_Strasbourg"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1890,19 +1886,19 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SIG_Strasbourg"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Role"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Role"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Simple_joueur"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sport"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sport"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Tennis"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Nationalite"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Nationalite"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#allemand"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Nationalite"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Nationalite"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#alsacien"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1910,19 +1906,19 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#basket_jo_2016"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Place"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#clementBasket"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Place"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#clementRugby"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Nationalite"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Nationalite"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#finlandais"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sport"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sport"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#foot"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1930,15 +1926,15 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#foot_jo_16"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Nationalite"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Nationalite"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#francais"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Place"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#germainTennis"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Nationalite"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Nationalite"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#international"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1946,23 +1942,23 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#jo_16"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Evenement"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#jo_16"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementBasketInternationaux"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EvenementBasketInternationaux"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#jo_16"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsBasket"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EvenementsBasket"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#jo_16"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsInternationaux"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EvenementsInternationaux"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#jo_16"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsMultisports"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EvenementsMultisports"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#jo_16"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1970,15 +1966,15 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#mon_equipe"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Equipe"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Equipe"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#mon_equipe"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EquipesNonMixtes"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EquipesNonMixtes"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#mon_equipe"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EquipesNonMixtesInternationales"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EquipesNonMixtesInternationales"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#mon_equipe"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1996,16 +1992,16 @@
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#mon_equipe"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Evenement"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#rugby_cup_16"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#EvenementsRugbySeulement"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EvenementsRugbySeulement"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#rugby_cup_16"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
+            <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Evenement"/>
             <ObjectAllValuesFrom>
                 <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#evenementACompet"/>
                 <ObjectHasValue>
@@ -2210,7 +2206,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#personneANationalite"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Frank_Ntilikina"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#francais"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#finlandais"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#personneAPlace"/>
@@ -3034,7 +3030,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#clubASport"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Club"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#competASport"/>
@@ -3042,31 +3038,31 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeAClub"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Equipe"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Equipe"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeASportif"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Equipe"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Equipe"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeJoueSport"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Equipe"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Equipe"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeParticipeAEvenement"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Equipe"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Equipe"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#evenementACompet"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Evenement"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#evenementANationalite"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Evenement"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#evenementASport"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Evenement"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#personneANationalite"/>
@@ -3074,35 +3070,35 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#personneAPlace"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#placeASport"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Place"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#placeEstPoste"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Place"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#placeEstRole"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Place"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#placeParticipeACompet"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Place"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#placeParticipeAEvenement"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Place"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#sportifAClub"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#sportifEstDansEquipe"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://xmlns.com/foaf/0.1/account"/>
@@ -3262,31 +3258,31 @@
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#CompetEstDansEvenement"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Evenement"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#clubASport"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sport"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sport"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#competASport"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sport"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sport"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeAClub"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Club"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeASportif"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sportif"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sportif"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeJoueSport"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sport"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sport"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeParticipeAEvenement"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Evenement"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#evenementACompet"/>
@@ -3294,31 +3290,31 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#evenementANationalite"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Nationalite"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Nationalite"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#evenementASport"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sport"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sport"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#personneANationalite"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Nationalite"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Nationalite"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#personneAPlace"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Place"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Place"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#placeASport"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sport"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sport"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#placeEstPoste"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Poste"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Poste"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#placeEstRole"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Role"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Role"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#placeParticipeACompet"/>
@@ -3326,15 +3322,15 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#placeParticipeAEvenement"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Evenement"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#sportifAClub"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Club"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Club"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#sportifEstDansEquipe"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Equipe"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Equipe"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://xmlns.com/foaf/0.1/account"/>
@@ -3606,15 +3602,15 @@
     </FunctionalDataProperty>
     <DataPropertyDomain>
         <DataProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#evenementAAnnee"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Evenement"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#evenementAIntitule"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Evenement"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Evenement"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#sportEstIndividuel"/>
-        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Sport"/>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Sport"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="http://xmlns.com/foaf/0.1/accountName"/>
@@ -3780,75 +3776,6 @@
         <DataProperty IRI="http://xmlns.com/foaf/0.1/yahooChatID"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
-    <DLSafeRule>
-        <Annotation>
-            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">9. Pour chaque équipe, noms de ses joueurs.</Literal>
-        </Annotation>
-        <Body>
-            <ClassAtom>
-                <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Equipe"/>
-                <Variable IRI="e"/>
-            </ClassAtom>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeASportif"/>
-                <Variable IRI="e"/>
-                <Variable IRI="j"/>
-            </ObjectPropertyAtom>
-        </Body>
-        <Head>
-            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
-                <Variable IRI="e"/>
-                <Variable IRI="j"/>
-            </BuiltInAtom>
-            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#orderBy">
-                <Variable IRI="e"/>
-            </BuiltInAtom>
-        </Head>
-    </DLSafeRule>
-    <DLSafeRule>
-        <Annotation>
-            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">10. Nombre de sportifs qui jouent au basket (ils ne jouent que dans une équipe de basket).</Literal>
-        </Annotation>
-        <Body>
-            <ClassAtom>
-                <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/untitled-ontology-11#Equipe"/>
-                <Variable IRI="e"/>
-            </ClassAtom>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeASportif"/>
-                <Variable IRI="e"/>
-                <Variable IRI="j"/>
-            </ObjectPropertyAtom>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeJoueSport"/>
-                <Variable IRI="e"/>
-                <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Basket"/>
-            </ObjectPropertyAtom>
-        </Body>
-        <Head>
-            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#count">
-                <Variable IRI="j"/>
-            </BuiltInAtom>
-        </Head>
-    </DLSafeRule>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
@@ -5353,5 +5280,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
 
