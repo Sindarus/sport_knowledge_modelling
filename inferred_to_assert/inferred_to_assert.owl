@@ -23,10 +23,10 @@
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EquipesNonMixtesInternationales"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeParticipeAEvenement"/>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/fundedBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/fundedBy"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeParticipeAEvenement"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="http://xmlns.com/foaf/0.1/plan"/>
@@ -1420,6 +1420,10 @@
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Poste"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Defenseur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Poste"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Défenseur"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://purl.org/dc/terms/Agent"/>
