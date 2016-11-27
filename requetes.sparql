@@ -29,3 +29,39 @@ WHERE
     FILTER regex(?nom, "^m", "i") .
 }
 ORDER BY ?nom
+
+#REQUETE 6 : Pour toutes les nationalités avec plus de 3 sportifs, nombre de ces sportifs ?
+SELECT ?pays (COUNT(?x) as ?nb_joueurs)
+WHERE
+{
+    ?x moi:personneAPlace ?c .
+    ?x moi:personneANationalite ?pays
+}
+GROUP BY ?pays
+HAVING (COUNT(?x) > 3)
+
+# ----
+# TODO
+# ----
+
+#REQUETE 4 : Combien y a-t-il de meneurs dans l'équipe masculine de la SIG ?
+SELECT (COUNT(?x) as ?nb_meneurs)
+WHERE
+{
+    ?x moi:personneAPlace ?c .
+    ?x moi:sportifEstDansEquipe moi:SIG_Basket .
+    ?x moi:placeEstPoste moi:Meneur
+}
+
+#REQUETE 5 : Equipes pour lesquelles le capitaine n'est pas connu.
+
+#REQUETE 7 : Y a-t-il un joueur finlandais dans l'équipe masculine de la SIG ?
+SELECT (COUNT(?x)>=1 as ?nb_joueurs)
+WHERE
+{
+    ?x moi:personneAPlace ?c .
+    ?x moi:sportifEstDansEquipe moi:SIG_Basket .
+    ?x moi:personneANationalite moi:finlandais
+}
+
+#REQUETE 8 : Pour toutes les équipes, le club, l'équipe et nom du capitaine s'il est connu. 
