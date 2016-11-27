@@ -1,0 +1,5 @@
+9. Pour chaque équipe, noms de ses joueurs.
+Equipe(?e) ^ equipeASportif(?e, ?j) -> sqwrl:select(?e, ?j) ^ sqwrl:orderBy(?e)
+
+10. Nombre de sportifs qui jouent au basket (ils ne jouent que dans une équipe de basket).
+Equipe(?e) ^ equipeASportif(?e, ?j) ^ equipeJoueSport(?e, Basket) -> sqwrl:count(?j)
