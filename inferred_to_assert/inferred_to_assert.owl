@@ -23,10 +23,10 @@
         <Class IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#EquipesNonMixtesInternationales"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/fundedBy"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeParticipeAEvenement"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#equipeParticipeAEvenement"/>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/fundedBy"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="http://xmlns.com/foaf/0.1/plan"/>
@@ -2674,14 +2674,149 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Slaughter</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Clement_SAINTIER"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Clément</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="http://xmlns.com/foaf/0.1/gender"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Clement_SAINTIER"/>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">male</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Clement_SAINTIER"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Saintier</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Erik_Murphy"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Erik</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Erik_Murphy"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Murphy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Erving_Walker"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Erving</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Erving_Walker"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Walker</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Frank_Ntilikina"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Frank</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Frank_Ntilikina"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ntilikina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Germain_CLAUSS"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Germain</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="http://xmlns.com/foaf/0.1/gender"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Germain_CLAUSS"/>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Germain_CLAUSS"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Clauss</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Jeremy_Leloup"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Jeremy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Jeremy_Leloup"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Leloup</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Matt_Howard"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Matt</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Matt_Howard"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Howard</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Mouhammadou_Jaiteh"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mouhammadou</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Mouhammadou_Jaiteh"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Jaiteh</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Olivier_Cortale"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Olivier</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Olivier_Cortale"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cortale</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Pape_Sy"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pape</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Pape_Sy"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Paul_Lacombe"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Paul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Paul_Lacombe"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Lacombe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Personne_Non_sportive"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Stéphane</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Personne_Non_sportive"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Kastenbaum</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Romeo_Travis"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Roméo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#Romeo_Travis"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Travis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#SIG_Basket"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Strasbourg Illkirch-Graffenstaden Basket</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#sportEstIndividuel"/>
@@ -2697,6 +2832,11 @@
         <DataProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#evenementAIntitule"/>
         <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#jo_16"/>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Jeux olympiques de 2016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#mon_equipe"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ma super équipe de rêve</Literal>
     </DataPropertyAssertion>
     <EquivalentObjectProperties>
         <ObjectProperty IRI="http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTIER_Sports#clubASport"/>

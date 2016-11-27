@@ -1356,11 +1356,6 @@
         <NamedIndividual IRI="#foot"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#sportifEstDansEquipe"/>
-        <NamedIndividual IRI="#francais"/>
-        <NamedIndividual IRI="#mon_equipe"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#placeASport"/>
         <NamedIndividual IRI="#germainTennis"/>
         <NamedIndividual IRI="#Tennis"/>
@@ -1451,6 +1446,11 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">male</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <NamedIndividual IRI="#SIG_Basket"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Strasbourg Illkirch-Graffenstaden Basket</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#sportEstIndividuel"/>
         <NamedIndividual IRI="#Tennis"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
@@ -1464,6 +1464,11 @@
         <DataProperty IRI="#evenementAIntitule"/>
         <NamedIndividual IRI="#jo_16"/>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Jeux olympiques de 2016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <NamedIndividual IRI="#mon_equipe"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ma super équipe de rêve</Literal>
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#clubASport"/>
