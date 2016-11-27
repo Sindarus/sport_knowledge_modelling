@@ -64,4 +64,10 @@ WHERE
 
 #REQUETE 5 : Equipes pour lesquelles le capitaine n'est pas connu.
 
+SELECT ?team WHERE
+{
+    ?team rdf:type moi:Equipe .
+    FILTER NOT EXISTS {?team moi:aPourCapitaine ?capitaine }
+}
+
 #REQUETE 8 : Pour toutes les équipes, le club, l'équipe et nom du capitaine s'il est connu. 
