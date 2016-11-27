@@ -7,17 +7,17 @@ PREFIX moi: <http://www.semanticweb.org/germain/ontologies/2016/10/CLAUSS_SAINTI
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 
 #REQUETE 1 : Sportifs et leurs nationalités.
-SELECT ?a ?b
+SELECT ?sportif ?nationalite
 WHERE { 
-	?a moi:personneANationalite ?b ;
-	moi:personneAPlace ?c
+	?sportif moi:personneANationalite ?nationalite.
+	?sportif moi:personneAPlace ?c
 } ORDER BY ?a
 
 #REQUETE 2 : Intitulés de tous les événements sportifs répertoriés pour l'année 2016
 SELECT ?intitule_evenement
 WHERE {
-	?x moi:evenementAIntitule ?intitule_evenement;
-	moi:evenementAAnnee 2016
+	?x moi:evenementAIntitule ?intitule_evenement.
+	?x moi:evenementAAnnee 2016
 }
 
 #REQUETE 3 : Tous les noms de famille de sportifs commençant par m (ou M), triés par ordre alphabétique.
@@ -30,6 +30,15 @@ WHERE
 }
 ORDER BY ?nom
 
+#REQUETE 4 : Combien y a-t-il de meneurs dans l'équipe masculine de la SIG ?
+SELECT (COUNT(?x) as ?nb_meneurs)
+WHERE
+{
+    ?x moi:personneAPlace ?c .
+    ?x moi:sportifEstDansEquipe moi:SIG_Basket .
+    ?c moi:placeEstPoste moi:Meneur
+}
+
 #REQUETE 6 : Pour toutes les nationalités avec plus de 3 sportifs, nombre de ces sportifs ?
 SELECT ?pays (COUNT(?x) as ?nb_joueurs)
 WHERE
@@ -40,21 +49,6 @@ WHERE
 GROUP BY ?pays
 HAVING (COUNT(?x) > 3)
 
-# ----
-# TODO
-# ----
-
-#REQUETE 4 : Combien y a-t-il de meneurs dans l'équipe masculine de la SIG ?
-SELECT (COUNT(?x) as ?nb_meneurs)
-WHERE
-{
-    ?x moi:personneAPlace ?c .
-    ?x moi:sportifEstDansEquipe moi:SIG_Basket .
-    ?x moi:placeEstPoste moi:Meneur
-}
-
-#REQUETE 5 : Equipes pour lesquelles le capitaine n'est pas connu.
-
 #REQUETE 7 : Y a-t-il un joueur finlandais dans l'équipe masculine de la SIG ?
 SELECT (COUNT(?x)>=1 as ?nb_joueurs)
 WHERE
@@ -63,5 +57,11 @@ WHERE
     ?x moi:sportifEstDansEquipe moi:SIG_Basket .
     ?x moi:personneANationalite moi:finlandais
 }
+
+# ----
+# TODO
+# ----
+
+#REQUETE 5 : Equipes pour lesquelles le capitaine n'est pas connu.
 
 #REQUETE 8 : Pour toutes les équipes, le club, l'équipe et nom du capitaine s'il est connu. 
