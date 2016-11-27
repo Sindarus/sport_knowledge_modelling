@@ -69,9 +69,19 @@ WHERE
     ?x moi:personneANationalite moi:finlandais
 }
 
-# ----
-# TODO
-# ----
 
-
-#REQUETE 8 : Pour toutes les équipes, le club, l'équipe et nom du capitaine s'il est connu. 
+#REQUETE 8 : Pour toutes les équipes, le club, l'équipe et nom du capitaine s'il est connu.
+SELECT ?nomEquipe ?club ?prenomCapitaine ?nomCapitaine WHERE {
+    ?team a moi:Equipe.
+    ?team foaf:name ?nomEquipe.
+    OPTIONAL {
+        ?team moi:equipeAClub ?club.
+    }
+    OPTIONAL {
+        ?team moi:equipeASportif ?sportif.
+        ?sportif moi:personneAPlace ?place.
+        ?place moi:placeEstRole moi:Capitaine.
+        ?sportif foaf:firstName ?prenomCapitaine.
+        ?sportif foaf:lastName ?nomCapitaine
+    }
+}
